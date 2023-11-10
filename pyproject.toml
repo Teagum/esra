@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hmm-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Michael Blaß <mblass@posteo.net>"]
+license = "BSD"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+jupyter = "^1.0.0"
+numpy = "^1.26.1"
+matplotlib = "^3.8.1"
+chainsaddiction = "^0.2.4"
+scipy = "^1.11.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
